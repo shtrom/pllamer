@@ -21,6 +21,7 @@
     "tabs",
     "storage"
   ],
+  "optional_permissions": ["trialML"],
   "host_permissions": [
     "*://*/*"
   ],
