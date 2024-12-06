@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My WebExtension",
+  "name": "Pllamer",
   "version": "1.0",
-  "description": "A simple Firefox WebExtension example.",
+  "description": "A planning and todo-list assistant",
   "icons": {
     "48": "icons/icon-48.png",
     "128": "icons/icon-128.png"
