@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Pllamer",
   "version": "1.0",
   "description": "A planning and todo-list assistant",
@@ -7,7 +7,7 @@
     "48": "icons/icon-48.png",
     "128": "icons/icon-128.png"
   },
-  "action": {
+  "browser_action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
       "48": "icons/icon-48.png",
@@ -18,13 +18,11 @@
     "scripts": [ "background.js" ]
   },
   "permissions": [
-    "tabs",
-    "storage"
+    "activeTab",
+    "menus",
+    "scripting"
   ],
   "optional_permissions": ["trialML"],
-  "host_permissions": [
-    "*://*/*"
-  ],
   "content_scripts": [
     {
       "matches": ["*://*/*"],
